@@ -71,6 +71,8 @@ ul {
 /* ХЭДЕР */
 .header {
   background-color: var(--main-backgroung-color);
+}
+.line {
   border-bottom: 1px solid var(--header-color);
 }
 .logo-header {
@@ -89,13 +91,6 @@ ul {
   margin-left: auto;
 }
 
-/* .site-nav .item {
-  background-color: tomato;
-}
-
-.contacts .item {
-  background-color: tomato;
-} */
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
 }
@@ -242,6 +237,10 @@ h3 {
   align-items: center;
   margin-top: 50px;
   padding-bottom: 94px;
+  max-width: 100%;
+}
+.engagemant .item {
+  display: block;
 }
 .engagemant .item + .item {
   margin-left: 30px;
