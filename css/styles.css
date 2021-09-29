@@ -237,13 +237,39 @@ h3 {
   align-items: center;
   margin-top: 50px;
   padding-bottom: 94px;
-  max-width: 100%;
 }
 .engagemant .item {
   display: block;
 }
 .engagemant .item + .item {
   margin-left: 30px;
+}
+
+/* Наша команда */
+.section-team .section-heading {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.section-team .list {
+  display: flex;
+}
+.photo-team {
+  background-color: var(--main-backgroung-color);
+  display: flex;
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+  margin-bottom: 94px;
+  flex-direction: column;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.names {
+  margin-top: 30px;
+}
+.team-position {
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 /* BUTTONS */
