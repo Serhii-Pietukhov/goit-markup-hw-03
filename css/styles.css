@@ -148,7 +148,7 @@ img {
   color: var(--primary-white);
   line-height: 1.71;
   font-style: normal;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .footer .link {
@@ -157,7 +157,7 @@ img {
   letter-spacing: 0.03em;
 }
 .footreq {
-  margin-top: 9px;
+  padding-top: 9px;
 }
 
 /* MAIN */
@@ -261,8 +261,7 @@ h3 {
 .engagemant {
   display: flex;
   align-items: center;
-  margin-top: 50px;
-  padding-bottom: 94px;
+  padding-top: 50px;
 }
 .engagemant .item {
   display: block;
@@ -278,7 +277,7 @@ h3 {
 }
 
 .section-team .section-heading {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .section-team .list {
   display: flex;
@@ -298,11 +297,11 @@ h3 {
 }
 
 .names {
-  margin-top: 30px;
+  padding-top: 30px;
 }
 .team-position {
-  margin-top: 10px;
-  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 /* BUTTONS */
