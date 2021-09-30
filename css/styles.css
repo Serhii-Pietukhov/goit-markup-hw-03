@@ -9,6 +9,7 @@
   --secondary-background-colour: #f5f4fa;
   --hero-background: #2f303a;
   --hero-button-colour: #188ce8;
+  --border-color: #eeeeee;
 }
 
 body {
@@ -341,9 +342,11 @@ h3 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
-  margin-right: 24px;
-  margin-left: 24px;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
 }
 .portfolio .link {
   text-decoration: none;
@@ -353,7 +356,10 @@ h3 {
   font-size: 16px;
   line-height: 1.87;
   color: var(--text-color);
-  margin: 4px 24px 20px 24px;
+  padding: 4px 24px 20px 24px;
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .portfolio {
@@ -361,21 +367,22 @@ h3 {
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
-  background-color: tomato;
 }
 
 .portfolio .item {
-  border: 1px solid #eeeeee;
+  /* border: 1px solid #eeeeee; */
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
 
 /* ПОРТФОЛИО КНОПКИ */
+
 .filter {
   display: flex;
   justify-content: center;
 }
+
 .filbutt {
   margin-right: 9px;
   margin-bottom: 50px;
