@@ -28,6 +28,7 @@ ul {
   margin-bottom: 0;
 }
 img {
+  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -126,6 +127,8 @@ img {
   font-weight: 500;
   line-height: 1.14px;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav .link:hover,
@@ -248,6 +251,7 @@ h3 {
 }
 .section .adv {
   margin-right: 30px;
+  width: calc((100% - 90px) / 4);
 }
 .section .adv:last-child {
   margin-right: 0;
@@ -265,6 +269,7 @@ h3 {
 }
 .engagemant .item {
   display: block;
+  width: calc((100% - 60px) / 3);
 }
 .engagemant .item + .item {
   margin-left: 30px;
