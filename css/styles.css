@@ -38,7 +38,7 @@ img {
   box-sizing: border-box;
   margin-right: auto;
   margin-left: auto;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 .no-gap {
   display: block;
@@ -195,6 +195,7 @@ h3 {
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
+  text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
   border-radius: 4px;
@@ -202,6 +203,7 @@ h3 {
   padding: 10px 32px;
   margin-top: 30px;
   margin-bottom: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero-button:hover,
@@ -210,6 +212,7 @@ h3 {
 }
 
 /* Описание */
+
 .section .list {
   display: flex;
 }
@@ -240,10 +243,10 @@ h3 {
 
   width: 270px;
 }
-
-.section .adv {
+.section {
   padding-top: 94px;
-  padding-bottom: 94px;
+}
+.section .adv {
   margin-right: 30px;
 }
 .section .adv:last-child {
@@ -251,6 +254,10 @@ h3 {
 }
 
 /* Чем мы занимаемся */
+.what-we-do {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .engagemant {
   display: flex;
   align-items: center;
@@ -265,9 +272,13 @@ h3 {
 }
 
 /* Наша команда */
-.section-team .section-heading {
+.section-team {
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 94px;
+}
+
+.section-team .section-heading {
+  margin-bottom: 50px;
 }
 .section-team .list {
   display: flex;
@@ -277,7 +288,6 @@ h3 {
   display: flex;
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
-  margin-bottom: 94px;
   flex-direction: column;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
