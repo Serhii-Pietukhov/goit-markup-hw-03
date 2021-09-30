@@ -31,6 +31,8 @@ ul {
   padding: 0 15px;
   margin: 0 auto;
   box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
   outline: 2px solid tomato;
 }
 .no-gap {
@@ -325,11 +327,19 @@ h3 {
 }
 
 /* ПОРТФОЛИО */
+.filter-portfolio {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
 .portfolio .portfolio-heading {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 20px;
+  margin-right: 24px;
+  margin-left: 24px;
 }
 .portfolio .link {
   text-decoration: none;
@@ -339,10 +349,21 @@ h3 {
   font-size: 16px;
   line-height: 1.87;
   color: var(--text-color);
+  margin: 4px 24px 20px 24px;
 }
+
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.portfolio .item {
+  border: 1px solid #eeeeee;
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 /* ПОРТФОЛИО КНОПКИ */
@@ -352,7 +373,6 @@ h3 {
 }
 .filbutt {
   margin-right: 9px;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 .filbutt:last-child {
