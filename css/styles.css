@@ -110,7 +110,6 @@ img {
 .site-nav .link {
   display: block;
   padding-top: 32px;
-  padding-bottom: 32px;
 
   color: var(--heading-color);
   font-weight: 500;
@@ -142,8 +141,7 @@ img {
 
 .footer {
   background-color: var(--footer-color);
-}
-.cont-foot {
+  padding-bottom: 60px;
   padding-top: 60px;
 }
 
